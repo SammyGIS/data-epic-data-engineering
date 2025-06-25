@@ -1,0 +1,16 @@
+Software Engineering Foundations - Week 1
+Python best practices (PEP8, type hints)
+Virtual environments & dependency management (Poetry, pip, requirements.txt)
+Introduction to unit testing (pytest, unittest)
+Code versioning with Git & GitHub
+introduction to Dependency management
+
+Note
+
+
+Resources:
+     https://realpython.com/python-code-quality/ - Python Best Practices
+     https://docs.pytest.org/en/stable/getting-started.html - Pytest
+     https://realpython.com/pytest-python-testing/ pytest Guide
+    https://youtu.be/RGOj5yH7evk  Video: Git & GitHub Crash Course
+    https://realpython.com/dependency-management-python-poetry/. Poetry
