@@ -1,0 +1,4 @@
+poetry.lock
+*.json
+*.txt
+__pycache__

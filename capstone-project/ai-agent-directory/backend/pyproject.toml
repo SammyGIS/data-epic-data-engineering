@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = ["team_software_engineering"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sqlalchemy = "^2.0.41"
+psycopg2-binary = "^2.9.0"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.2"
+python-dotenv = "^1.1.0"
+pytest = "^8.3.5"
+pyjwt = "^2.10.1"
+alembic = "^1.15.2"
+httpx = "^0.28.1"
+bcrypt = "^4.3.0"
+python-decouple = "^3.8"
+fastapi-pagination = "^0.13.1"
+pydantic = {extras = ["email"], version = "^2.11.5"}
+pytz = "^2025.2"
+pre-commit = "^4.2.0"
+pylint = "^3.3.7"
+pre-commit-hooks = "^5.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 79
+
+[tool.flake8]
+max-line-length = 114
+
+[tool.isort]
+line_length = 79

@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "stock-market-data-streaming-analysis"
+version = "0.1.0"
+description = ""
+authors = ["ioaviator <aviator@gmail.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+requests=">=2.32.3,<3.0.0"
+pandas =">=2.2.3,<3.0.0"
+python-dotenv = ">=1.1.0,<2.0.0"
+dotenv =">=0.9.9,<0.10.0"
+boto3 = "^1.37.37"
+
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

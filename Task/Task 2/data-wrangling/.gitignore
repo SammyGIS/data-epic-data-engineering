@@ -1,0 +1,9 @@
+*.venv
+*.toml
+*.zip
+*.xls
+*.csv
+*.parquet
+*.josn
+*.env
+*.pyc
