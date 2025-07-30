@@ -1,3 +1,4 @@
 *.venv
 *.vscode
 *__pychae__
+\data_engineering_internship
