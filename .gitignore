@@ -2,3 +2,4 @@
 *.vscode
 \data_engineering_internship
 *__pycache__
+__pycache__
